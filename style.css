@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  line-height: 1.6;
+}
+header {
+  background: #111;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-weight: bold;
+  color: #0f0;
+}
+nav a {
+  margin: 0 10px;
+  color: #ccc;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #0f0;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #0f0, #0a0);
+}
+.hero h1 {
+  font-size: 2rem;
+}
+.btn, .btn-outline {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+}
+.btn {
+  background: #0f0;
+  color: #000;
+}
+.btn-outline {
+  border: 1px solid #fff;
+}
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+.features .cards,
+#products .cards {
+  display: grid;
+  gap: 20px;
+}
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+}
+.price {
+  color: #0f0;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  margin-top: 20px;
+}
