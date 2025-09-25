@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMZ Scripts — Creative Agency Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <!-- MOBILE TOPBAR -->
+  <header class="topbar">
+    <button id="openMenu" aria-label="Open menu" class="hamburger"><span></span><span></span><span></span></button>
+    <div class="brand-mini">TMZ</div>
+  </header>
+
+  <!-- SIDEBAR NAV -->
+  <aside id="sidebar" class="sidebar">
+    <div class="brand">
+      <div class="logo">TMZ</div>
+      <div class="brand-text">Scripts</div>
+      <button id="closeMenu" class="close" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="nav">
+      <a href="#hero" class="nav-link">Home</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="content">
+    <!-- HERO -->
+    <section id="hero" class="section hero observe">
+      <div class="hero-inner">
+        <h1 class="title">We build premium <span>FiveM</span> systems.</h1>
+        <p class="subtitle">Creative agency vibes • Polished performance • Production-ready scripts</p>
+        <div class="cta">
+          <a href="#portfolio" class="btn primary">Explore Portfolio</a>
+          <a href="#contact" class="btn">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-bg"></div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section observe">
+      <div class="section-head">
+        <h2>Portfolio</h2>
+        <div class="filters">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="systems">Systems</button>
+          <button class="chip" data-filter="ui">UI</button>
+          <button class="chip" data-filter="economy">Economy</button>
+          <button class="chip" data-filter="vehicles">Vehicles</button>
+        </div>
+      </div>
+
+      <div class="grid">
+        <!-- Card -->
+        <article class="card tilt" data-cat="systems">
+          <div class="media">
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=1600&auto=format&fit=crop" alt="Police Job Pro" />
+          </div>
+          <div class="meta">
+            <span class="tag">Systems</span>
+            <h3>Police Job Pro</h3>
+            <p>MDT • ranks • fines • duty board • callouts.</p>
+          </div>
+        </article>
+
+        <article class="card tilt" data-cat="vehicles">
+          <div class="media">
+            <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1600&auto=format&fit=crop" alt="Garage+ Vehicles" />
+          </div>
+          <div class="meta">
+            <span class="tag">Vehicles</span>
+            <h3>Garage+ Vehicles</h3>
+            <p>Keys • insurance tiers • impound • VIN.</p>
+          </div>
+        </article>
+
+        <article class="card tilt" data-cat="economy">
+          <div class="media">
+            <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1600&auto=format&fit=crop" alt="Billing & Invoices" />
+          </div>
+          <div class="meta">
+            <span class="tag">Economy</span>
+            <h3>Billing & Invoices</h3>
+            <p>Invoices • payments • audit • CSV export.</p>
+          </div>
+        </article>
+
+        <article class="card tilt" data-cat="ui">
+          <div class="media">
+            <img src="https://images.unsplash.com/photo-1550355191-353a6f1b4c8a?q=80&w=1600&auto=format&fit=crop" alt="Jobs Dispatcher" />
+          </div>
+          <div class="meta">
+            <span class="tag">UI</span>
+            <h3>Jobs Dispatcher</h3>
+            <p>Queue • assign • GPS routing • priorities.</p>
+          </div>
+        </article>
+
+        <article class="card tilt" data-cat="systems">
+          <div class="media">
+            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1600&auto=format&fit=crop" alt="Banking Suite" />
+          </div>
+          <div class="meta">
+            <span class="tag">Systems</span>
+            <h3>Banking Suite</h3>
+            <p>Accounts • transfers • ATMs • sleek UI.</p>
+          </div>
+        </article>
+
+        <article class="card tilt" data-cat="ui">
+          <div class="media">
+            <img src="https://images.unsplash.com/photo-1487956382158-bb926046304a?q=80&w=1600&auto=format&fit=crop" alt="Inventory Pro" />
+          </div>
+          <div class="meta">
+            <span class="tag">UI</span>
+            <h3>Inventory Pro</h3>
+            <p>Drag & drop • crafting • weights • stash.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section observe">
+      <h2>Services</h2>
+      <div class="services">
+        <article class="svc">
+          <h3>Custom Systems</h3>
+          <p>Tailored FiveM mechanics: jobs, law, banking, dispatch & more.</p>
+        </article>
+        <article class="svc">
+          <h3>UI/UX & HUD</h3>
+          <p>Modern, responsive interfaces for immersive gameplay and clarity.</p>
+        </article>
+        <article class="svc">
+          <h3>Optimization</h3>
+          <p>Low resmon footprints, profiling and performance-first code.</p>
+        </article>
+        <article class="svc">
+          <h3>Support & Updates</h3>
+          <p>Ticket-based support, patches & feature updates.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section observe">
+      <div class="about">
+        <div>
+          <h2>About Us</h2>
+          <p>We craft production-ready FiveM experiences: clean code, robust systems, and polished UI. Trusted by servers worldwide.</p>
+          <ul class="bullets">
+            <li>ESX / QBCore compatible</li>
+            <li>License & update system</li>
+            <li>Clear docs & examples</li>
+          </ul>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="count" data-target="350">0</span><label>Servers</label></div>
+          <div class="stat"><span class="count" data-target="4.9">0</span><label>Rating</label></div>
+          <div class="stat"><span class="count" data-target="120">0</span><label>Releases</label></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section observe">
+      <h2>Pricing</h2>
+      <div class="pricing">
+        <article class="plan">
+          <h3>Starter</h3>
+          <div class="price">$19</div>
+          <ul>
+            <li>Single script</li><li>Basic support</li><li>Docs access</li>
+          </ul>
+          <a href="#contact" class="btn">Choose</a>
+        </article>
+        <article class="plan featured">
+          <h3>Pro</h3>
+          <div class="price">$49</div>
+          <ul>
+            <li>3 scripts</li><li>Priority support</li><li>Updates</li>
+          </ul>
+          <a href="#contact" class="btn primary">Choose</a>
+        </article>
+        <article class="plan">
+          <h3>Studio</h3>
+          <div class="price">$99</div>
+          <ul>
+            <li>All scripts</li><li>Ticket support</li><li>Licensing</li>
+          </ul>
+          <a href="#contact" class="btn">Choose</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section observe">
+      <h2>Contact</h2>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Form submission placeholder. Connect backend or use Formspree.');">
+        <div class="row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <textarea rows="5" placeholder="Message"></textarea>
+        <button class="btn primary" type="submit">Send message</button>
+      </form>
+    </section>
+
+    <footer class="footer">© <span id="y"></span> TMZ Scripts. All rights reserved.</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
