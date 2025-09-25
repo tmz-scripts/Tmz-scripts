@@ -1,1 +1,0 @@
-console.log("TMZ Scripts site loaded");
