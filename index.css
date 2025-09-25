@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth fonts & basic theming */
+:root { color-scheme: light dark; }
+html, body, #root { height: 100%; }
+* { outline-offset: 2px; }
