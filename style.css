@@ -1,0 +1,19 @@
+body{margin:0;font-family:Arial,sans-serif;background:#0b0f14;color:#fff}
+.intro{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity .6s}
+.intro.hidden{opacity:0;visibility:hidden}
+.intro .overlay{position:absolute;inset:0;background:rgba(0,0,0,.5)}
+.intro-box{position:relative;z-index:1;text-align:center}
+.btn{padding:10px 16px;border-radius:8px;cursor:pointer;border:none}
+.btn.primary{background:#2ea8ff;color:#000}
+.sidebar{position:fixed;left:0;top:0;bottom:0;width:250px;background:#111;transform:translateX(-100%);transition:.3s;padding:20px;z-index:1000}
+.sidebar.open{transform:translateX(0)}
+.topbar{position:fixed;top:0;left:0;right:0;height:50px;background:#111;display:flex;align-items:center;justify-content:space-between;padding:0 12px;z-index:999}
+.hamburger span{display:block;width:20px;height:2px;background:#fff;margin:4px 0}
+.content{padding:70px 20px}
+.section{margin:40px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:#1a1f26;padding:16px;border-radius:12px;transition:.3s}
+.card:hover{transform:translateY(-4px)}
+.media img{max-width:100%;border-radius:8px}
+.badge{position:absolute;top:10px;right:10px;background:#2ea8ff;color:#000;padding:4px 8px;border-radius:999px;font-size:12px}
+.footer{margin-top:60px;text-align:center;font-size:14px;color:#aaa}
