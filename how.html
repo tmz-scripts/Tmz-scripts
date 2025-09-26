@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How It Works — TMZ Scripts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><div class="logo">TMZ</div><div class="brand-text">Scripts</div></div>
+    <nav class="nav"><a href="index.html">Products</a><a href="why.html">Why us</a><a href="how.html">How it works</a><a href="contact.html">Contact</a></nav>
+    <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <button id="closeDrawer" class="close" aria-label="Close menu">×</button>
+    <a href="index.html" class="drawer-link">Products</a><a href="why.html" class="drawer-link">Why us</a><a href="how.html" class="drawer-link">How it works</a><a href="contact.html" class="drawer-link">Contact</a>
+  </aside>
+
+  <main>
+    <section class="container section">
+      <h1>How it works</h1>
+      <div class="grid">
+        <div class="card"><h3>1. Purchase</h3><p>Choose a script and complete checkout (Stripe/PayPal/Gumroad).</p></div>
+        <div class="card"><h3>2. Receive</h3><p>Get a download link and your license key via email.</p></div>
+        <div class="card"><h3>3. Install</h3><p>Upload to your server, configure, and activate the license.</p></div>
+        <div class="card"><h3>4. Update</h3><p>Receive patches and new features automatically.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">© <span id="year"></span> TMZ Scripts. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
